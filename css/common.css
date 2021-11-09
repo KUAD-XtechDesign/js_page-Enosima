@@ -1,0 +1,87 @@
+
+/*===================
+基本
+===================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html,body {
+    height: 100%;
+    font-feature-settings: "palt";
+    background-color: rgb(73, 118, 197);
+    position: relative;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: black;
+    letter-spacing: 0.05em;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*====================
+header
+====================*/
+header {
+    position: fixed;
+    z-index: 2;
+    max-width: 100%;
+    margin: auto;
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+}
+
+header .inner{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    margin: 20px;
+}
+
+/*=====================
+コンテンツ
+====================*/
+#header_logo img{
+    display: inline-block;
+}
+
+.contents{
+    width: 800px;
+    padding: 20px;
+    margin:1 auto;
+}
+
+.slider{
+    margin: 100px auto;
+    width: 80%;
+}
+
+.slider img{
+    height: auto;
+    width: 100%;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before{
+    color: blanchedalmond;
+}
