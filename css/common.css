@@ -54,7 +54,7 @@ header .inner{
     padding: 15px 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
     border-radius: 4px;
-    margin: 20px;
+    margin: 20px 100px;
 }
 
 /*=====================
@@ -78,6 +78,11 @@ header .inner{
 .slider img{
     height: auto;
     width: 100%;
+}
+
+.thumb{
+    margin: 35px auto;
+    width: 80%;
 }
 
 /*slick setting*/

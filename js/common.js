@@ -9,7 +9,7 @@ $(function(){
     });
 
     $('.thumb').slick({
-        
+        asNavFor:'.slider',
         focusOnSelect: false,
         slidesToShow:1,
         slidesToScroll:1
