@@ -16,7 +16,7 @@ html{
 html,body {
     height: 100%;
     font-feature-settings: "palt";
-    background-color: rgb(73, 118, 197);
+    background-color: rgb(155, 191, 253);
     position: relative;
 }
 
@@ -83,5 +83,5 @@ header .inner{
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before{
-    color: blanchedalmond;
+    color: rgb(22, 22, 22);
 }
