@@ -2,9 +2,17 @@ $(function(){
 
     //ここにスクリプトを書く
     $('.slider').slick({
-        autoplay:true,
+        asNavFor:'.thumb',
+        autoplay:false,
         autoplayspeed:5000,
         dots:true,
+    });
+
+    $('.thumb').slick({
+        
+        focusOnSelect: false,
+        slidesToShow:1,
+        slidesToScroll:1
     });
 
 
